@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'CSEP/community'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000F04, symSize: 0xE8 }
+  - { offsetInCU: 0x8E, offset: 0x8E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000F04, symSize: 0xE8 }
+  - { offsetInCU: 0xE0, offset: 0xE0, size: 0x8, addend: 0x0, symName: _memcheck, symObjAddr: 0xE8, symBinAddr: 0x100000FEC, symSize: 0x5C }
+  - { offsetInCU: 0x120, offset: 0x120, size: 0x8, addend: 0x0, symName: _loginPage, symObjAddr: 0x144, symBinAddr: 0x100001048, symSize: 0x198 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _mainPage, symObjAddr: 0x2DC, symBinAddr: 0x1000011E0, symSize: 0x1A8 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _newUser, symObjAddr: 0x4A4, symBinAddr: 0x1000013A8, symSize: 0x1D0 }
+  - { offsetInCU: 0x268, offset: 0x268, size: 0x8, addend: 0x0, symName: _loginUser, symObjAddr: 0x674, symBinAddr: 0x100001578, symSize: 0x2B4 }
+  - { offsetInCU: 0x2F7, offset: 0x2F7, size: 0x8, addend: 0x0, symName: _resolveEmptyField, symObjAddr: 0x928, symBinAddr: 0x10000182C, symSize: 0x184 }
+  - { offsetInCU: 0x31B, offset: 0x31B, size: 0x8, addend: 0x0, symName: _skillManage, symObjAddr: 0xAAC, symBinAddr: 0x1000019B0, symSize: 0xDC }
+  - { offsetInCU: 0x34D, offset: 0x34D, size: 0x8, addend: 0x0, symName: _requestManage, symObjAddr: 0xB88, symBinAddr: 0x100001A8C, symSize: 0xDC }
+  - { offsetInCU: 0x382, offset: 0x382, size: 0x8, addend: 0x0, symName: _requestView, symObjAddr: 0xC64, symBinAddr: 0x100001B68, symSize: 0x430 }
+  - { offsetInCU: 0x4BF, offset: 0x4BF, size: 0x8, addend: 0x0, symName: _skillSearch, symObjAddr: 0x1094, symBinAddr: 0x100001F98, symSize: 0x42C }
+  - { offsetInCU: 0x5FC, offset: 0x5FC, size: 0x8, addend: 0x0, symName: _rateUser, symObjAddr: 0x14C0, symBinAddr: 0x1000023C4, symSize: 0x258 }
+  - { offsetInCU: 0x66D, offset: 0x66D, size: 0x8, addend: 0x0, symName: _viewMessage, symObjAddr: 0x1718, symBinAddr: 0x10000261C, symSize: 0x108 }
+  - { offsetInCU: 0x693, offset: 0x693, size: 0x8, addend: 0x0, symName: _sendMessage, symObjAddr: 0x1820, symBinAddr: 0x100002724, symSize: 0x1B8 }
+  - { offsetInCU: 0x715, offset: 0x715, size: 0x8, addend: 0x0, symName: _log, symObjAddr: 0x19D8, symBinAddr: 0x1000028DC, symSize: 0xF4 }
+  - { offsetInCU: 0x26, offset: 0x8B1, size: 0x8, addend: 0x0, symName: _tokenize, symObjAddr: 0x0, symBinAddr: 0x1000029D0, symSize: 0x280 }
+  - { offsetInCU: 0x83, offset: 0x90E, size: 0x8, addend: 0x0, symName: _tokenize, symObjAddr: 0x0, symBinAddr: 0x1000029D0, symSize: 0x280 }
+  - { offsetInCU: 0x26, offset: 0x9FF, size: 0x8, addend: 0x0, symName: _loadLoginData, symObjAddr: 0x0, symBinAddr: 0x100002C50, symSize: 0x1BC }
+  - { offsetInCU: 0x169, offset: 0xB42, size: 0x8, addend: 0x0, symName: _loadLoginData, symObjAddr: 0x0, symBinAddr: 0x100002C50, symSize: 0x1BC }
+  - { offsetInCU: 0x1D7, offset: 0xBB0, size: 0x8, addend: 0x0, symName: _log, symObjAddr: 0x1BC, symBinAddr: 0x100002E0C, symSize: 0xF4 }
+  - { offsetInCU: 0x245, offset: 0xC1E, size: 0x8, addend: 0x0, symName: _memcheck, symObjAddr: 0x2B0, symBinAddr: 0x100002F00, symSize: 0x5C }
+  - { offsetInCU: 0x285, offset: 0xC5E, size: 0x8, addend: 0x0, symName: _loadUserData, symObjAddr: 0x30C, symBinAddr: 0x100002F5C, symSize: 0x318 }
+  - { offsetInCU: 0x31F, offset: 0xCF8, size: 0x8, addend: 0x0, symName: _userExists, symObjAddr: 0x624, symBinAddr: 0x100003274, symSize: 0xB0 }
+  - { offsetInCU: 0x38D, offset: 0xD66, size: 0x8, addend: 0x0, symName: _printUserToFile, symObjAddr: 0x6D4, symBinAddr: 0x100003324, symSize: 0x8C }
+  - { offsetInCU: 0x3BF, offset: 0xD98, size: 0x8, addend: 0x0, symName: _dataAppend, symObjAddr: 0x760, symBinAddr: 0x1000033B0, symSize: 0x1CC }
+  - { offsetInCU: 0x42A, offset: 0xE03, size: 0x8, addend: 0x0, symName: _dataFullSave, symObjAddr: 0x92C, symBinAddr: 0x10000357C, symSize: 0x13C }
+...
